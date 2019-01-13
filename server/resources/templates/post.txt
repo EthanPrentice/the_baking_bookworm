@@ -1,0 +1,7 @@
+{
+  title: "You Me Everything",
+  author: "Catherine Isaac",
+  image_dir: "resources/images/book_reviews/you_me_everything.png",
+  desc: "This book took me by surprise. I started off thinking this was a typical Women's Fiction read but as the book progressed, and the layers of Jess' life came together, it became more of an emotional read that highlights the fact that life and relationships aren't always black and white. I simply loved it.",
+  date_posted: new Date("2018-11-12T11:26:00Z")
+}

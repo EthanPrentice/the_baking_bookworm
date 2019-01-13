@@ -1,0 +1,10 @@
+GET https://www.googleapis.com/blogger/v3/blogs/{blogId}/posts/{postId}
+
+GET https://www.googleapis.com/blogger/v3/blogs/{blogId}/posts
+
+ my test blogID = 7895622922702865711
+ my test key = AIzaSyCT3A6ycGLHcSS7DFytPuODRmkekl9CVtc
+ https://www.googleapis.com/blogger/v3/blogs/7895622922702865711/posts
+ https://content.googleapis.com/blogger/v3/blogs/7895622922702865711/posts?key=AIzaSyCT3A6ycGLHcSS7DFytPuODRmkekl9CVtc
+
+moms blog id = 648528809470059310

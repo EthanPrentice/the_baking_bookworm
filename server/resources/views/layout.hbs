@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>The Baking Bookworm</title>
+    <link href="resources/css/styles.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt' rel='stylesheet' type='text/css'>
+
+    <!---menu--->
+    <link rel="stylesheet" href="resources/css/superfish.css" media="screen">
+    <script src="resources/js/jquery-1.9.0.min.js"></script>
+    <script src="resources/js/hoverIntent.js"></script>
+    <script src="resources/js/superfish.js"></script>
+    <script src="resources/js/client.js"></script>
+    <script>
+    		// initialise plugins
+    		jQuery(function(){
+    			jQuery('#example').superfish({
+    				//useClick: true
+    			});
+    		});
+    </script>
+  </head>
+
+  <body>
+    <!-- Put header in every view -->
+    <div class="header-wrap">
+
+      <!-- social media top left -->
+      <span class="social-media-wrap">
+        <a href="https://www.facebook.com/The-Baking-Bookworm-197748720244374/" target="_blank">
+          <img src="resources/images/social_media/facebook.png"></img>
+        </a>
+
+        <a href="https://twitter.com/bakingbookworm" target="_blank">
+          <img src="resources/images/social_media/twitter.png"></img>
+        </a>
+      </span>
+
+      <a href="/">
+        <div class="logo">
+          <h1>the Baking Bookworm</h1>
+        </div>
+      </a>
+
+      <div class="menu-wrap">
+      <span class="menu">
+        <img src="resources/images/menu-left.png" alt="image"/>
+        <ul class="sf-menu" id="example">
+          <li> <a href="recipes">Recipes</a> </li>
+          <li> <a href="book_reviews">Book Reviews</a> </li>
+          <li> <a href="how_to">How To..</a> </li>
+          <li> <a href="home_reno">Home Reno</a> </li>
+          <li> <a href="contact">Contact</a> </li>
+        </ul>
+        <img src="resources/images/menu-right.png" alt="image"/>
+      </span>
+      </div>
+    </div>
+
+    {{{ body }}}
+
+  </body>
+
+</html>

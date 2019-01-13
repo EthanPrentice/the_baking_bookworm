@@ -1,0 +1,60 @@
+<div class="clear"></div>
+
+<!-- banner -->
+<!-- TODO: Change about me to scrape from blogger -->
+<div class="banner-wrap">
+  <div id="about_me">
+      <img id="profile_pic" class="center_h" src="resources/images/profile_pic.png"/>
+      <p id="about_me_desc" class="center_h">
+        I am a Canadian Print Selection Specialist at a Library Wholesaler with a compulsion
+        to cook and a serious reading addiction. You will either find me curled up with a good
+        book or whipping up something in the kitchen! I live in south-western Ontario and have
+        been married to my hubby for 21 years. We have 3 kids -- Boy 1 (18 yrs) old,
+        Boy 2 (17 yrs old) and Missy Moo (14 yrs old) and a mini Schnoodle named Scout.
+      </p>
+  </div>
+</div>
+
+<div class="dropdown-wrap">
+  <div class="dropdown">
+    <h2><b>Recent▾</b></h2>
+    <div class="dropdown-content">
+      <a href="/"><h3><b>Popular</b></h3></a>
+    </div>
+  </div>
+</div>
+
+<!-- posts -->
+<div class="page-wrap">
+  <div class="wrap">
+
+    {{#each posts}}
+      <div class="box">
+        <div class="panel">
+
+          <img src={{ content.image }}></img>
+
+          <div class="title">
+            <h1>{{ title }}</h1>
+            <h2>{{ content.author }}</h2>
+          </div>
+
+          <div class="content">
+            <p> {{{ content.desc }}}</p>
+          </div>
+
+          <div class="button"><a href={{ url }}>Read</a></div>
+          <span class="labels">
+            {{#each labels}}
+              <a href="http://thebakingbookworm.blogspot.com/search/label/{{ this }}">{{ this }}</a>
+            {{/each}}
+          </span>
+
+        </div>
+      </div>
+    {{/each}}
+
+    <div class="clear"></div>
+
+  </div>
+</div>
